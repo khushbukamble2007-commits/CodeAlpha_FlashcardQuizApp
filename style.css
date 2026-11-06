@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 650px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    color: #5742a6;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #777;
+}
+
+.card-info {
+    text-align: right;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.flashcard {
+    background: #f3f0ff;
+    border: 2px solid #d8ceff;
+    padding: 35px 20px;
+    border-radius: 15px;
+    text-align: center;
+    min-height: 220px;
+}
+
+.flashcard h2 {
+    color: #5742a6;
+    margin-bottom: 20px;
+}
+
+.flashcard p {
+    font-size: 19px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+button {
+    background: #6c55c9;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #4d399d;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.management {
+    margin-top: 30px;
+}
+
+.management h2 {
+    color: #5742a6;
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+.delete {
+    background: #e74c3c;
+}
+
+.delete:hover {
+    background: #c0392b;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 20px 15px;
+    }
+
+    header h1 {
+        font-size: 23px;
+    }
+
+    button {
+        padding: 10px 12px;
+    }
+}
